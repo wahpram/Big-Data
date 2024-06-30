@@ -4,7 +4,8 @@ from pymongo.server_api import ServerApi
 
 
 def mongo_to_csv():
-    uri = "mongodb+srv://wahpram2607:Bangli123.@cluster0.yiobiyk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    # uri = "mongodb+srv://wahpram2607:Bangli123.@cluster0.yiobiyk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    uri = 'mongodb://localhost:27017'
     db_name = 'db_tanah_bali'
     collection_name = 'tanah_bali_clean'
     csv_filepath = './data/tanah_bali_clean.csv'
